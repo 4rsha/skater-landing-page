@@ -199,6 +199,7 @@ header nav .login-icon {
   margin-top: 10rem;
   margin-right: -3.6rem;
   position: relative;
+  z-index: 7;
 }
 
 .main-content .content-left .order a {
