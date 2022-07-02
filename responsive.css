@@ -1,0 +1,109 @@
+@media (max-width: 1250px){
+
+  .skater-img {
+    content:url("./img/skater-re.png")!important;
+  }
+
+  .skater-img-2 {
+    content:url("./img/skater-2-re.png")!important;
+  }
+  
+  .main-content .content-right .skate-feature {
+    margin-right: 8rem;
+  }
+
+  .main-content .content-left h1 {
+    font-family: "IranSansBlack";
+    font-weight: 800;
+    font-size: 3rem;
+    user-select: none;
+    direction: rtl;
+    letter-spacing: .3px;
+    position: absolute;
+    left: 18%;
+    top: 21%;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #9e6dc9;
+  }
+
+  .main-content .content-left p {
+    margin-right: -2rem;
+    margin-top: 40%;
+  }
+
+  footer .footer-description {
+    width: 33%;
+  }
+}
+
+@media (max-width: 1125px){
+  footer .brands {
+    justify-content: center;
+    width: 100%;
+  }
+
+  footer .footer-description {
+    display: none;
+  }
+
+  .main-content .content-right .skate-feature {
+    margin-right: 5rem;
+  }
+}
+
+@media (max-width: 1020px){
+  .main-content .content-left h1 {
+    display: none;
+  }
+}
+
+@media (max-width: 960px){
+  .main-content .content-left h1 {
+    display: none;
+  }
+
+  .skater-img, .skater-img-2 {
+    width: 500px!important;
+  }
+
+  .main-content .content-right .skate-feature {
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 790px) {
+  .content-right {
+    display: none!important;
+  }
+}
+
+@media (max-width: 650px) {
+  nav {
+    padding: 0!important;
+  }
+
+  .main-menu {
+    display: none!important;
+  }
+
+  .content-right {
+    display: none!important;
+  }
+
+  .hamburger-toggle {
+    display: block;
+  }
+
+  .side-menu {
+    display: block;
+    overflow: scroll;
+  }
+
+  .content-left p {
+    display: none;
+  }
+
+  footer .brands img {
+    margin: 0 1.5rem;
+  }
+}
